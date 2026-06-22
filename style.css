@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Header */
+header{
+    background: #9f0c1d; /* Wine Red */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1{
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 1.1rem;
+}
+
+/* Navigation */
+nav{
+    background: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background: #5c0011;
+}
+
+/* Main Content */
+main{
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Sections */
+section{
+    background: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-left: 6px solid #5c0011;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color: #5c0011;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #5c0011;
+    padding-bottom: 8px;
+}
+
+section h3{
+    color: #000000;
+    margin-top: 15px;
+}
+
+section p,
+section li{
+    color: #333333;
+}
+
+/* Lists */
+ol, ul{
+    padding-left: 20px;
+}
+
+/* Buttons (for future use) */
+button{
+    background: #f4253d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #7a0018;
+}
+
+/* Footer */
+footer{
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Smooth Scrolling */
+html{
+    scroll-behavior: smooth;
+}
