@@ -1,0 +1,11 @@
+theme: jekyll-theme-primer
+title: Rentrahisi Manual
+description: Manual documentation
+
+# Markdown settings
+markdown: kramdown
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
